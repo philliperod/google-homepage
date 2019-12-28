@@ -1,0 +1,33 @@
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline;
+    padding: 8px;
+}
+
+.centerpiece {
+    margin: auto;
+    padding: 109px 0px 0px;
+    text-align: center;
+}
+
+.footer ul {
+    background-color: gray;
+    position: relative;
+    top: 495px;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    text-align: left;
+}
+
+.footer li {
+    display: inline;
+    padding: 8px;
+}

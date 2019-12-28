@@ -1,13 +1,39 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <div id="logo">
-    <p><a href="http://www.google.com"><img src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo"></a>"</p>
-</div>
-    <form action="" method="get"></form>
+    <div class="navbar">
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li>Apps</li>
+        </ul>
+    </div>
+    <div class="centerpiece">
+    <p>
+        <img src="googlelogo.png" height="92px" width="272px" alt="Google logo">"
+    </p>
 
+    <form action="search" method="get"></form>
+
+    <p>
+        <input size="32" type="text" placeholder="Search Google or type URL" name="search">
+    </p>
+
+    <p>
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm Feeling Lucky">
+    </p>    
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search Works</li>
+        </ul>
+    </div>
 </body>
 </html>
